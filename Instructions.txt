@@ -1,31 +1,35 @@
 # Here is all you need to do to get openbox started up and running.
 
-# Install Openbox.
-$ sudo apt install openbox
-
-# Install a Panel (My preference is lxpanel.)
-$ sudo apt install lxpanel
-
-# Install obmenu-generator to generate a good functional openbox menu.
-$ sudo apt install obmenu generator
-
-# Install Plank Dock (As an application laucnher.)
-$ sudo apt install plank
+# Install Openbox. lxpanel, lxappearance, nitrogen, obmenu-generator
+$ sudo apt install openbox lxpanel nitrogen obmenu-generator plank lxappearance
 
 # Generate an openbox menu(Static with NO icons.)
 $ obmenu-generator -s
 
-# Install nitrogen for Wallpaper.
-$ sudo apt install nitrogen.
-
-# My Favourite Wallpaper (in the repostiory.)
+# My Favourite Wallpaper (in the repostiory) , Apply it using Nitrgoen
 
 # Get my favourtie openbox theme (Neon Knights Orange)
-# Download from https://www.pling.com/p/1307202/
-
+# Download it from https://www.pling.com/p/1307202/
+# Install the Theme by----
 $ cd $HOME/Downloads
 $ tar -xzvf Neon_Knights_Orange.tar.gz
-$ mv Neon_Knights_Orange /usr/share/themes
+$ sudo mv Neon_Knights_Orange /usr/share/themes
 
-# Apply theme using Obconf
-# 
+# Apply Neon_Knights_Orange theme using Obconf
+
+# Move my lxpanel config present in repository to $HOME/.config/lxpanel/default/
+$ mv config $HOME/.config/lxpanel/default/
+
+# Open lxappearance and select numix_full_dark.
+
+# Download Agave Nerd Font and Install it using these commands.
+$ cd $HOME/Downloads/
+$ unzip Agave.zip
+$ sudo mv Agave* /usr/share/fonts
+
+# Change fonts using obconf for basic settings.
+# Chnage fonts system wide using lxappearance.
+
+# Move my autostart.sh script to $HOME/.config/openbox/
+
+# Change rest preferences according to yourself through advanced settings in your openbox menu.
