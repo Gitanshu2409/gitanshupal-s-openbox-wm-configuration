@@ -1,7 +1,7 @@
 # Here is all you need to do to get openbox started up and running.
 
 # Install Openbox. lxpanel, lxappearance, nitrogen, obmenu-generator
-$ sudo apt install openbox lxpanel nitrogen obmenu-generator plank lxappearance
+$ sudo apt install openbox lxpanel nitrogen obmenu-generator plank lxappearance neofetch
 
 # Generate an openbox menu(Static with NO icons.)
 $ obmenu-generator -s
@@ -33,3 +33,5 @@ $ sudo mv Agave* /usr/share/fonts
 # Move my autostart.sh script to $HOME/.config/openbox/
 
 # Change rest preferences according to yourself through advanced settings in your openbox menu.
+
+# use Neofetch and flex.
