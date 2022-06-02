@@ -1,0 +1,31 @@
+# Here is all you need to do to get openbox started up and running.
+
+# Install Openbox.
+$ sudo apt install openbox
+
+# Install a Panel (My preference is lxpanel.)
+$ sudo apt install lxpanel
+
+# Install obmenu-generator to generate a good functional openbox menu.
+$ sudo apt install obmenu generator
+
+# Install Plank Dock (As an application laucnher.)
+$ sudo apt install plank
+
+# Generate an openbox menu(Static with NO icons.)
+$ obmenu-generator -s
+
+# Install nitrogen for Wallpaper.
+$ sudo apt install nitrogen.
+
+# My Favourite Wallpaper (in the repostiory.)
+
+# Get my favourtie openbox theme (Neon Knights Orange)
+# Download from https://www.pling.com/p/1307202/
+
+$ cd $HOME/Downloads
+$ tar -xzvf Neon_Knights_Orange.tar.gz
+$ mv Neon_Knights_Orange /usr/share/themes
+#
+# Apply theme using Obconf
+#
