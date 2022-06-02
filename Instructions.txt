@@ -26,6 +26,6 @@ $ sudo apt install nitrogen.
 $ cd $HOME/Downloads
 $ tar -xzvf Neon_Knights_Orange.tar.gz
 $ mv Neon_Knights_Orange /usr/share/themes
-#
+
 # Apply theme using Obconf
-#
+# 
