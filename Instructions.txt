@@ -13,12 +13,12 @@ $ obmenu-generator -s
 # Install the Theme by----
 $ cd $HOME/Downloads
 $ tar -xzvf Neon_Knights_Orange.tar.gz
-$ sudo mv Neon_Knights_Orange /usr/share/themes
+$ sudo mv Neon_Knights_Orange /usr/share/themes/
 
 # Apply Neon_Knights_Orange theme using Obconf
 
 # Move my lxpanel config present in repository to $HOME/.config/lxpanel/default/
-$ mv config $HOME/.config/lxpanel/default/
+$ mv panel $HOME/.config/lxpanel/default/panels
 
 # Open lxappearance and select numix_full_dark.
 
