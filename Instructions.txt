@@ -34,4 +34,8 @@ $ sudo mv Agave* /usr/share/fonts
 
 # Change rest preferences according to yourself through advanced settings in your openbox menu.
 
+# You may install breeze icon theme
+$ sudo apt install breeze
+# Apply the theme through lxappearance
+
 # use Neofetch and flex.
