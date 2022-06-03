@@ -22,7 +22,7 @@ $ mv panel $HOME/.config/lxpanel/default/panels
 
 # Open lxappearance and select numix_full_dark.
 
-# Download Agave Nerd Font and Install it using these commands.
+# Download Agave and Fira Mono Nerd Font from https://www.nerdfonts.com/font-downloads and Install it using these commands.
 $ cd $HOME/Downloads/
 $ unzip Agave.zip
 $ sudo mv Agave* /usr/share/fonts
